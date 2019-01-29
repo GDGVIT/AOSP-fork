@@ -1,4 +1,19 @@
-# COSP #
+# COSP (Clean Open Source Project) #
+A fork of the Android Open Source Project that focuses on being rock-stable, smooth, privacy, and security. Currently supported devices are:
+* `taimen` - Google Pixel 2
+* `cheeseburger` - OnePlus 5
+* `vince` - Xiaomi Redmi 5 plus
+* `whyred` - Xiaomi Redmi Note 5
+* `mido` - Xiaomi Redmi Note 4
+* `santoni` - Xiaomi Redmi 4X
+* `rolex` - Xiaomi Redmi 4A
+* `cedric` - Motorola Moto G5
+* `potter` - Motorola Moto G5 Plus
+* `sanders` - Motorola Moto G5S Plus
+* `harpia` - Moto G Play 2016
+* `herolte` - Samsung Galaxy S7
+* `hero2lte` - Samsung Galaxy S7 Edge
+
 
 ## Introduction ##
 These instructions will hopefully assist you to start with a stock Android device, and then download the required tools as well as the very latest source code for COSP (based on Google’s Android operating system) for your device. Using these, you can build COSP and a Recovery image from source code, and then install them both to your device.
@@ -12,7 +27,7 @@ Remember, you assume all risk of trying this, but you will reap the rewards! It�
 * An Android device with an unlocked bootloader
 * A relatively recent 64-bit computer (Linux(preferably Ubuntu) or macOS) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable `ccache` or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster build times than traditional hard drives.
 * A decent internet connection and reliable electricity :)
-* Some familiarity with basic Android operation and terminology. It would help if you’ve installed custom roms on other devices and are familiar with recovery. It may also be useful to know some basic command line concepts such as cd, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
+* Some familiarity with basic Android operation and terminology. It would help if you’ve installed custom roms on other devices and are familiar with recovery. It may also be useful to know some basic Linux/Unix CLI concepts such as cd, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
 
 Let's begin!
 
@@ -108,7 +123,7 @@ or add that line to your `~/.bashrc` file.
 Time to start building! Now, type:
 ```
 croot
-brunch cheeseburger
+brunch <devicename>
 ```
 
 The build should begin.
