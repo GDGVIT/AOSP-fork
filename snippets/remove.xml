@@ -118,24 +118,18 @@
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
-  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/ExactCalculator" />
   <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
-  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
@@ -145,7 +139,6 @@
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
